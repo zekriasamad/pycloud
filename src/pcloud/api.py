@@ -38,7 +38,7 @@ def main():
 
 class PyCloud(object):
 
-    endpoint = "https://api.pcloud.com/"
+    endpoint = "https://eapi.pcloud.com/"
 
     def __init__(self, username, password):
         self.username = username.lower().encode("utf-8")
